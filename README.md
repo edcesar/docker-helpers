@@ -1,4 +1,4 @@
-### Parar ou remove todos os containers:
+### Parar ou remover todos os containers:
 - docker stop $(docker ps -a -q)  
 - docker rm $(docker ps -a -q)  
   
