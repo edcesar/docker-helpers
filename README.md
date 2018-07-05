@@ -5,6 +5,6 @@
 ### Cria um container, nginx, expondo a porta 80, com um volume sincronizado ao host, de nome nginx
 - docker run -d -p 80:80 -v /home/www:/usr/share/nginx/html --name nginx nginx  
   
-## Entra no container de nome nginx  
+## Entra no container de nome nginx
 - docker exec -it nginx bash
 
